@@ -13,7 +13,7 @@ Add it to your ``Cargo.toml``:
 
 ```toml
 [dependencies]
-fasttext = "0.6"
+fasttext = { git = "https://github.com/sharockys/fasttext-rs-m1.git" }
 ```
 
 Add ``extern crate fasttext`` to your crate root and your're good to go!
